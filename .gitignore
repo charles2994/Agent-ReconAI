@@ -1,0 +1,27 @@
+# --- Python cache & env ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+
+# --- IDE junk ---
+.vscode/
+.idea/
+
+# --- Build outputs ---
+dist/
+build/
+*.egg-info/
+
+# --- Project artifacts (do NOT commit) ---
+runs/
+datasets/
+outputs/
+*.tmp
+*.log
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
